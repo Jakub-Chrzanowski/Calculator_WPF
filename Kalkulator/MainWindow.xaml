@@ -38,11 +38,11 @@
     </Window.Resources>
 
     <Grid>
-        <!-- Ekran kalkulatora -->
+        
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="46" Margin="0,18,0,0" VerticalAlignment="Top" Width="280" CornerRadius="10" Background="White"/>
         <TextBlock x:Name="Display" HorizontalAlignment="Left" Margin="21,20,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="42" Width="240" FontSize="30" TextAlignment="Right"/>
 
-        <!-- Przyciski -->
+      
         <Button Content="1" Style="{StaticResource CalcButtonStyle}" Click="Button_Click" Margin="29,105,0,0" Width="51" Height="51" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <Button Content="4" Style="{StaticResource CalcButtonStyle}" Click="Button_Click" Margin="29,161,0,0" Width="51" Height="51" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <Button Content="7" Style="{StaticResource CalcButtonStyle}" Click="Button_Click" Margin="29,217,0,0" Width="51" Height="51" HorizontalAlignment="Left" VerticalAlignment="Top"/>
